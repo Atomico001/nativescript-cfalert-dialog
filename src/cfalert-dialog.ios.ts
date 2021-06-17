@@ -1,6 +1,9 @@
-import * as frame from 'tns-core-modules/ui/frame';
-import { Color } from 'tns-core-modules/color';
-import { ios } from 'tns-core-modules/ui/utils';
+// import * as frame from 'tns-core-modules/ui/frame';
+// import { Color } from 'tns-core-modules/color';
+// import { ios } from 'tns-core-modules/ui/utils';
+
+import { Frame, Color } from '@nativescript/core'
+import { ios } from '@nativescript/core/application'
 
 declare const CFAlertViewController;
 declare const CFAlertAction;
